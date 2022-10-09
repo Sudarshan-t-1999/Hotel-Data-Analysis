@@ -17,6 +17,7 @@
 * To calculate the Occupancy percentage use `=SUM(table_name[Successful_Bookings])/SUM(hotel[Capacity])`, then click on the percent sign in the **Home** tab in the **Number** block to convert the value into percentage.
 * To calculate the Total Number of Cancelled Bookings use `=COUNTIF(hotel[Booking_Status], "Cancelled")`.
 * To calculate the Cancellation Rate use `=Total_cancelled_bookings/ROWS(table_name[Booking_Id])`.
+
 ![Screenshot (8)](https://user-images.githubusercontent.com/76962685/194771646-c23fdb2c-8aab-4887-b6a2-f60ed6c1927d.png)
 * To create the chart **Revenue per Week**, create a Pivot Table by clicking on Insert and under Tables click PivotTable.
 * This opens the Create PivotTable dialog box, click on the **Select a table or range** radio button, enter the name of the table.
@@ -25,4 +26,4 @@
 * Drag the Week No from the list and drop it in the Rows section, then drag the Revenue_Generated and Revenue_Realized columns and drop them into values section.
 * Then click on **PivotChart** under Analyze and select the type of chart, then click Ok. Then cut and paste the chart in a new sheet.
 * Repeat the above steps and create the charts required charts.
-* 
+* In order to plot Occupancy vs Week No, right click the table name and click Add Measure, then enter the Measure Name, enter the formula `=(SUM(table_name[No_Guests])/SUM(table_name[Capacity]))*100`, then click Ok.
