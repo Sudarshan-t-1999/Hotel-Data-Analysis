@@ -28,7 +28,7 @@
 * Repeat the above steps and create the charts required charts.
 * In order to plot Occupancy vs Week No, right click the table name and click Add Measure, then enter the Measure Name, enter the formula `=(SUM(table_name[No_Guests])/SUM(table_name[Capacity]))*100`, then click Ok.
 * After pasting the charts in the new sheet, insert a new pivot table in the sheet.
-* Drag the **Property_Id** and **Property Name** and drop them in the Rows section and drop the columns **Revenue Generated, Revenue Realized, Occupancy, Ratings_Given, No_Guests**.
+* Drag the **Property_Id** and **Property Name** and drop them in the Rows section and drop the columns **Revenue Generated, Revenue Realized, Occupancy, Ratings_Given, No_Guests** in the Values section.
 * To calculate the Average of the Ratings Given, click on the drop-down arrow next to the Ratings Given, then click on **Value Field Settings**, select Average under Summarize Values By.
 * In order to represent the values with bars, drag and drop all the columns again into the Values section next to each other, select each of the values in the table and click on **Conditional Formatting**, then select whichever colour you want under Data Bars.
 * In order to hide the values in the bars, select the values, click on Format, then on Format Cells, in Category click Custom, under Type replace General with ;;;, then click Ok.
