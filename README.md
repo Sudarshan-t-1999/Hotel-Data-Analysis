@@ -27,3 +27,12 @@
 * Then click on **PivotChart** under Analyze and select the type of chart, then click Ok. Then cut and paste the chart in a new sheet.
 * Repeat the above steps and create the charts required charts.
 * In order to plot Occupancy vs Week No, right click the table name and click Add Measure, then enter the Measure Name, enter the formula `=(SUM(table_name[No_Guests])/SUM(table_name[Capacity]))*100`, then click Ok.
+* After pasting the charts in the new sheet, insert a new pivot table in the sheet.
+* Drag the **Property_Id** and **Property Name** and drop them in the Rows section and drop the columns **Revenue Generated, Revenue Realized, Occupancy, Ratings_Given, No_Guests**.
+* To calculate the Average of the Ratings Given, click on the drop-down arrow next to the Ratings Given, then click on **Value Field Settings**, select Average under Summarize Values By.
+* In order to represent the values with bars, drag and drop all the columns again into the Values section next to each other, select each of the values in the table and click on **Conditional Formatting**, then select whichever colour you want under Data Bars.
+* In order to hide the values in the bars, select the values, click on Format, then on Format Cells, in Category click Custom, under Type replace General with ;;;, then click Ok.
+* To put filters, right click on the columns that you want to filter and click on Add as Slicer.
+* In order to make the charts change according to the filters applied by the slicers, right click on the Slicers and click Report Connections and select the pivot tables with charts that need to change.
+* In order to show the main parameters, click on **Insert**, under Illustrations, click on Shapes and select the shape you want.
+* To fill the shape with the values, enter the formula for values in Formula bar after selecting the shape.
