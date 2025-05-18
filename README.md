@@ -1,6 +1,6 @@
 # Hotel Data Analysis
 
-![Screenshot (4)](https://user-images.githubusercontent.com/76962685/194711762-4cf6f8e6-d497-4290-8eb8-fc57e2fdcdd5.png)
+![Screenshot (4)](![image](https://github.com/user-attachments/assets/5340cc81-8f16-4205-910f-ac42345cf623))
 
 * Interactive hotel‑analytics dashboard that transforms booking data into live insights on occupancy, revenue, cancellations, and guest satisfaction, filterable by property, city, channel, and week.
 
