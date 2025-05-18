@@ -3,7 +3,7 @@
 ![image](https://github.com/user-attachments/assets/eacf3a6e-8e4d-4448-af3b-8d1a9c66512c)
 
 
-* Interactive hotel‑analytics dashboard that transforms booking data into live insights on occupancy, revenue, cancellations, and guest satisfaction, filterable by property, city, channel, and week.
+Interactive hotel‑analytics dashboard that transforms booking data into live insights on occupancy, revenue, cancellations, and guest satisfaction, filterable by property, city, channel, and week.
 
 ## Steps involved
 * First aggregate all the data in the files **fact_bookings.csv, fact_aggregated_bookings.csv, dim_hotels.csv, dim_rooms.csv, fact_aggregated_bookings.csv, dim_date.csv** using the `VLOOKUP` formula after changing the format of Date from **dd-mmm-yy** to **dd-mm-yy** and changing the column names using `PROPER` formula.
