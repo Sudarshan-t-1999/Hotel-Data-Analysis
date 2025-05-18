@@ -2,7 +2,7 @@
 
 ![Screenshot (4)](https://user-images.githubusercontent.com/76962685/194711762-4cf6f8e6-d497-4290-8eb8-fc57e2fdcdd5.png)
 
-* This Dashboard was made as part of [Codebasics Resume Project Challenge](https://codebasics.io/event/codebasics-resume-project-challenge) known as <b>Provide Insights to Revenue Team in Hospitality Domain</b>. The data for this project is available for download in the above site.
+* Interactive hotel‑analytics dashboard that transforms booking data into live insights on occupancy, revenue, cancellations, and guest satisfaction, filterable by property, city, channel, and week.
 
 ## Steps involved
 * First aggregate all the data in the files **fact_bookings.csv, fact_aggregated_bookings.csv, dim_hotels.csv, dim_rooms.csv, fact_aggregated_bookings.csv, dim_date.csv** using the `VLOOKUP` formula after changing the format of Date from **dd-mmm-yy** to **dd-mm-yy** and changing the column names using `PROPER` formula.
